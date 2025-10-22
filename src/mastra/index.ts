@@ -20,4 +20,10 @@ export const mastra = new Mastra({
   observability: {
     default: { enabled: true },
   },
+  server: {
+    build: {
+      openAPIDocs: true,
+      swaggerUI: true,
+    }
+  }
 });
