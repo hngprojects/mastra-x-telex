@@ -5,6 +5,7 @@ import { LibSQLStore } from '@mastra/libsql';
 import { weatherWorkflow } from './workflows/weather-workflow';
 import { weatherAgent } from './agents/weather-agent';
 import { toolCallAppropriatenessScorer, completenessScorer, translationScorer } from './scorers/weather-scorer';
+import { a2aAgentRoute } from './routes/a2a-agent-route';
 
 export const mastra = new Mastra({
   workflows: { weatherWorkflow },
@@ -24,6 +25,9 @@ export const mastra = new Mastra({
     build: {
       openAPIDocs: true,
       swaggerUI: true,
-    }
+    },
+    apiRoutes: [
+      a2aAgentRoute
+    ]
   }
 });

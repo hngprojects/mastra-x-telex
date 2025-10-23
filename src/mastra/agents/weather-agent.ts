@@ -50,4 +50,9 @@ export const weatherAgent = new Agent({
       url: 'file:../mastra.db',
     }),
   }),
+  // url: "https://api.generativelanguage.googleapis.com/v1beta2/models/google/gemini-2.0-flash:generateMessage",
+  // provider: {
+
+  // }
+  
 });

@@ -1,0 +1,42 @@
+{
+  "jsonrpc": "2.0",
+  "id": "75d53d9705054a60b1cb2d2d1887c242",
+  "method": "message/send",
+  "params": {
+    "message": {
+      "kind": "message",
+      "role": "user",
+      "parts": [
+        {
+          "kind": "text",
+          "text": "Lagos"
+        }
+      ],
+      "metadata": {
+        "telex_user_id": "0192142c-02cc-7a41-b8bf-d0b7dc73d91b",
+        "telex_channel_id": "019778c7-2eed-7546-8a03-a56f7faa8992",
+        "org_id": "0192143b-1ab8-7a42-85eb-82b2dd86f08e"
+      },
+      "messageId": "db84ba2b62a0422e968d56591b9bb01a",
+      "taskId": "db84ba2b62a0422e968d56591b9bb01a"
+    },
+    "configuration": {
+      "acceptedOutputModes": [
+        "text/plain",
+        "image/png",
+        "image/jpg"
+      ],
+      "pushNotificationConfig": {
+        "url": "https://webhook.site/5dc51424-4551-4e7a-bb1a-4e1818428c32",
+        "token": null,
+        "authentication": {
+          "schemes": [
+            "TelexApiKey"
+          ],
+          "credentials": "baea272dde8b6f6c3b04bf1fa4a528a275167e9c42799f01ea0148c518e6d997"
+        }
+      },
+      "blocking": true
+    }
+  }
+}
