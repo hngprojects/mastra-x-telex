@@ -1,16 +1,20 @@
 {
   "name": "telex-x-mastra",
   "version": "1.0.0",
-  "description": "",
+  "description": "A2A protocol integration between Mastra and Telex for intelligent workflow automation",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hngprojects/mastra-x-telex"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "mastra dev",
     "build": "mastra build",
     "start": "mastra start"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["a2a", "mastra", "telex", "agent", "ai", "workflow"],
+  "author": "Phoenix",
   "license": "ISC",
   "type": "module",
   "engines": {
